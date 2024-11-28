@@ -76,3 +76,6 @@ h4{text-align: center;
    color: #8174B4;
    margin-top: -1%;
 }
+.flex1{
+    display:flex;
+}
