@@ -109,3 +109,18 @@ h4{text-align: center;
 }   
         
     }
+    .flex3{
+        display:flex;
+        justify-content: center;
+        gap: 15%;
+        border-radius: 15%;
+        
+        img{
+            height: 250px;
+            
+         }
+    #Portfolio{color: #8174B4;
+               text-align: center;
+    }   
+            
+        }
