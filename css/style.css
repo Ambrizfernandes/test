@@ -56,3 +56,14 @@ h5{color: #5C5F66;
     display: flex;
     align-items: center;
 }
+button{
+    background-color:white;
+    border-radius: 20px;
+    border: #8174B4 1px solid;
+    width: auto;
+    text-align: center;
+    height: 40px;
+    color: #8174B4;
+    cursor: pointer;
+    width: 100px;
+}
