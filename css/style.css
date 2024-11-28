@@ -1,0 +1,58 @@
+
+
+body{
+    margin: 0%;
+    height: 50%;
+    
+}
+header h1{
+    color:#343436;
+    margin-top: 12%;
+    margin-right: 18%;
+}
+h4{
+    color: #5C5F66;
+    font-family: sans-serif;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    
+}
+header{
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: url( ../images/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    #Visit{
+        background-color: #8174B4;
+        color: white;
+        border:none;
+        border-radius: 50px;
+        margin-right: 18%;
+        cursor: pointer;}
+}
+#man{
+    height: 400px;
+    margin-left: 10%;}
+
+
+p{
+    color: #5C5F66;
+    
+}
+h3{color:#8174B4 ;
+   font-family: Arial, Helvetica, sans-serif
+   
+}
+h5{color: #5C5F66;
+   
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
