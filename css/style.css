@@ -23,6 +23,7 @@ header{
     flex-direction: column;
     align-items: center;
     background: url( ../images/header2.png);
+    
     background-size: cover;
     background-repeat: no-repeat;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -88,8 +89,18 @@ h4{text-align: center;
         padding-top: 20px;
     }
     img{
-        height: 50px;
         
+        height: 50px;
+        animation: move 10s infinite;
+        transform: translateY(-22px);
+        transition: transform 15s ease;
+        transform: translateY(40%);
+        transition: transform 6s initial;
+        transition-duration: 7s;
+        transform: rotate(360deg);
+       
+        
+       
         
         
     }
@@ -102,6 +113,10 @@ h4{text-align: center;
     
     img{
         height: 250px;
+        transform: translateY(-22px);
+        transition: transform 3s ease;
+        transition: transform 5s initial;
+        transform: rotate(360deg);
         
      }
 #Portfolio{color: #8174B4;
@@ -117,6 +132,11 @@ h4{text-align: center;
         
         img{
             height: 250px;
+            transform: translateY(-10px);
+        transition: transform 10s ease;
+        transform: translateY(15%);
+       
+        
             
          }
     #Portfolio{color: #8174B4;
@@ -192,11 +212,11 @@ h4{text-align: center;
             .flex-10{
                 display: flex;
                 justify-content: center;
-                gap: 18%;
+                gap: 10%;
                 #illo{color: #695AA6;}
                 #elit{color: #695AA6;}
                 div{
-                    border: 2px solid black;
+                    border: 1px solid black;
                     border-left-width: 1%;
                     height: 286px;
                     padding-left: 3%;
